@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slider</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <img
+      id="main-image"
+      src="../images/hero-2-1030x494.jpg"
+      alt="تصویر اصلی"
+      onclick="toggleEnlarge()"
+    />
+    <div class="thumbnail-container">
+      <img
+        class="thumbnail"
+        src="../images/hero-3.jpg"
+        alt="1"
+        onclick="changeImage(this)"
+      />
+      <img
+        class="thumbnail"
+        src="../images/hero-4-1030x494.jpg"
+        alt="2"
+        onclick="changeImage(this)"
+      />
+      <img
+        class="thumbnail"
+        src="../images/hero-5-705x338.jpg"
+        alt="3"
+        onclick="changeImage(this)"
+      />
+      <img
+        class="thumbnail"
+        src="../images/hero-6-705x338.jpg"
+        alt="4"
+        onclick="changeImage(this)"
+      />
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
