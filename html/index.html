@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <img
+    <div class="slider">
+      <img
       id="main-image"
       src="../images/hero-2-1030x494.jpg"
       alt="تصویر اصلی"
       onclick="toggleEnlarge()"
     />
-    <div class="thumbnail-container">
-      <img
+    <div class="sliderWrapper1">
+      <button id="prev" class="nav-button1">&lt;</button>
+      <div class="imageContainer" id="image-container">
+ 
+        <img
         class="thumbnail"
         src="../images/hero-3.jpg"
         alt="1"
@@ -34,11 +38,45 @@
       />
       <img
         class="thumbnail"
-        src="../images/hero-6-705x338.jpg"
+        src="../images/nature.jpg"
         alt="4"
         onclick="changeImage(this)"
       />
+      <img
+        class="thumbnail"
+        src="../images/album3-180x180.jpg"
+        alt="4"
+        onclick="changeImage(this)"
+      />
+      <img
+        class="thumbnail"
+        src="../images/album2.jpg"
+        alt="4"
+        onclick="changeImage(this)"
+      />
+      <img
+        class="thumbnail"
+        src="../images/album1.jpg"
+        alt="4"
+        onclick="changeImage(this)"
+      />
+      <img
+        class="thumbnail"
+        src="../images/album.jpg"
+        alt="4"
+        onclick="changeImage(this)"
+      />
+
     </div>
+    <button id="next" class="nav-button1">&gt;</button>
+    </div>
+   
+      </div>
+
+    </div>
+
+    <div class="thumbnail-container">
+  
 
     <script src="../js/script.js"></script>
   </body>
