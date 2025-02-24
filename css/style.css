@@ -18,6 +18,11 @@ body {
 }
 #main-image.enlarged {
   transform: scale(1.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.5);
+  z-index: 10;
 }
 .thumbnail-container {
   display: flex;
